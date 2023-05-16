@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.main-left{
+height: auto;
+width: 70%;
+
+}
+.main-right{
+    height: auto;
+    width: 30%;
+    
+}
+.main h2{
+    color: #00bf8e;
+}
+.img-logo{
+    width: auto;
+    height: 50vh;
+    flex-basis: 30%;
+}

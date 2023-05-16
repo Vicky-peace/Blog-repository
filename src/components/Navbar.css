@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #f8f8f8;
+    
+    padding: 10px;
+  }
+  .navbar h1{
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f75842;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #2e3267;
+  }
+  .logo{
+   Color: #f75842;
+   margin: 0;
+   padding: auto;
+  }
+  
+ /* Media queries for different screen sizes */
+
+/* Large screens (desktops) */
+@media screen and (min-width: 992px) {
+    .navbar {
+      padding: 20px;
+    }
+    
+    .nav-item {
+      margin-right: 20px;
+    }
+  }
+ 
